@@ -16,15 +16,12 @@ repo, getting started is easy :
 
 ```
 yarn && yarn start
-
 ```
 
 or
 
 ```
-
 npm install && npm run start
-
 ```
 
 # Notes
