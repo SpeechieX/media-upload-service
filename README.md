@@ -33,6 +33,6 @@ npm install && npm run start
 
 Make sure to add your `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`,
 `AWS_REGION`, `AWS_BUCKET_NAME`, and `AWS_URL_LINK` to your .env file. You'll
-also need to add your MONGO_URI as well.
+also need to add your `MONGO_URI` as well.
 
 **Erik**
