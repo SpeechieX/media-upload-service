@@ -52,7 +52,7 @@ router.route("/:id").get((req, res, next) => {
 
 router.post("/uploadAudio", upload.single("file"), function (req, res) {
 	const file = req.file;
-	const s3FileURL = process.env.AWS_Uploaded_File_URL_LINK;
+	const s3FileURL = process.env.AWS_URL_LINK;
 
 	let s3bucket = new AWS.S3({
 		accessKeyId: process.env.AWS_ACCESS_KEY_ID,
